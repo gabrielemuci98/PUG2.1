@@ -1,0 +1,23 @@
+Come si lega un template PUG ai dati generati dall’applicazione Express?
+Un template pug si lega all'applicazione Express tramite una variabile json
+Come si passano dei valori dall’applicazione Express al template PUG?
+i valori passano attraverso l'uso del '#' oppure l'utilizzo del '$'
+Cos’è JSON?
+Json ( Javascript object notation) -> è una notazione per rappresenatre degli oggetti in Javascript,
+per esattezza è basato su JavaScript ma il suo sviluppo è specifico per lo scambio di dati ed è indipendente 
+dallo sviluppo del linguaggio di scripting dal quale nasce e con il quale è perfettamente integrato e semplice da utilizzare.
+Come si rappresenta un oggetto in JSON?
+Per rappresentare un oggetto JSON si utilizzano le {} 
+Come si rappresenta un vettore in JSON?
+Per rappresentare un vettore JSON si utilizzano le []
+Come si rappresenta un vettore di oggetti in JSON?
+per rappresentare un vettore di oggetti JSON si utilizzano sia le {} e sia le []
+Come si importa un file JSON all’interno di una variabile in Node?
+
+Come si ottiene un  valore da un oggetto JSON (Supponendo di aver caricato l’oggetto in una variabile)
+Come si ottiene il valore da un vettore JSON (es il vettore profiles definito sopra)?
+Come si realizza un ciclo for in PUG?
+un Ciclo in pug si realizza tramite l'uso di each es:
+ul
+  each val in [1, 2, 3, 4, 5]
+    li= val
